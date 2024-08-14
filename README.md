@@ -12,14 +12,18 @@ This is a simple User Management System built with PHP. The project includes use
    cd simple-user-management
 
 2. Install Dependencies:
-composer install
+   ```bash
+   composer install
 
-3. Run PHPUnit Tests:
+
+4. Run PHPUnit Tests:
 To run the tests and ensure everything is working, use:
-vendor\bin\phpunit --testdox
+   vendor\bin\phpunit --testdox
 
-Usage
 
+
+## Usage
+```php
 1. Adding a New User
 To add a new user, you would typically use the UserService:
 
